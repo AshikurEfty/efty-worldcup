@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width:1140px;
+    margin:0 auto;
+}
+/*====== banner part start =====*/
+.banner-part{
+    display: flex;
+    margin-top:50px;
+    padding-top: 111px;
+    background: #161616;
+    border-radius: 30px;
+    margin-bottom: 130px;
+}
+.banner-text{
+    margin-left: 80px;
+    width:50%;
+}
+.banner-text h1{
+    font-size: 70PX;   
+    font-weight: 700;
+    font-family: 'poppins';
+    color:#FFFFFF;
+    line-height:80px;
+}
+.banner-text p{
+    font-size: 16PX;
+    font-family: 'poppins';
+    color:#FFFFFF;
+    padding-bottom:35px;
+    padding-top:15px;
+}
+.banner-text a{
+    padding:16px 25px;
+    font-size: 20PX;
+    font-family: 'poppins';
+    color:#FFFFFF;
+    background: #DD0000;
+    border-radius:5px;
+}
+.banner-photo{
+    width:50%;
+    margin-right:80px;
+}
+.banner-photo img {
+    width: 100%;
+    margin-left: 30px;
+}
+
+/*====== blog part start =====*/
+.blog-btn {
+    padding-top: 20px;
+    padding-bottom: 49px;
+    background: #161616;
+    border-radius: 10px;
+    width: 30%;
+}
+.blog-btn h3{
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+.blog-btn a{
+    border-radius:5px;
+    color:#161616;
+    background: #FFFFFF;
+}
+.blog-btn .btn1{
+    padding:16px 25px;
+    font-size: 20PX;
+    font-family: 'poppins';
+    color:#161616;
+    background: #FFFFFF;
+    border-radius:5px;
+}
+.blog-btn .btn2{
+    padding:16px 25px;
+    font-size: 20PX;
+    font-family: 'poppins';
+    color:#161616;
+    background: #FFFFFF;
+    border-radius:5px;
+}
+.blog-btn .btn3{
+    padding:16px 25px;
+    font-size: 20PX;
+    font-family: 'poppins';
+    color:#161616;
+    background: #FFFFFF;
+    border-radius:5px;
+}
