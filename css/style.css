@@ -9,8 +9,7 @@ a{
     text-decoration: none;
 }
 .container{
-    width:1140px;
-    margin:0 auto;
+    padding: 0 5%;
 }
 /*====== banner part start =====*/
 .banner-part{
@@ -46,6 +45,18 @@ a{
     color:#FFFFFF;
     background: #DD0000;
     border-radius:5px;
+    font-weight: 700;
+    transition:all linear .3s;
+}
+.banner-text a:hover{
+    padding:16px 25px;
+    font-size: 22PX;
+    font-weight: 700;
+    font-family: 'poppins';
+    color:#ff0000;
+    background: #ffffff;
+    border-radius:5px;
+    
 }
 .banner-photo{
     width:50%;
@@ -78,6 +89,13 @@ a{
     margin-right: 25px;
     text-align: center;
     cursor: pointer;
+}
+.blog-btn-left h3:hover{
+    background: #DD0000;
+}
+.blog-btn-left h3:hover a{
+    background: #DD0000;
+    color:#FFFFFF
 }
 .blog-btn a{
     border-radius:5px;
@@ -141,4 +159,38 @@ a{
 .item1 a{
     color:#838383;
     font-family: 'poppins';
+}
+
+/*--========= footer part start ========-*/
+#footer{
+    background: #161616;
+    padding-top:100px;
+    padding-bottom:50px;
+}
+.fotter-text h3{
+    padding-bottom:30px;
+    font-size: 40PX;
+    font-family: 'poppins';
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+    gap:30px;
+}
+.footer-nav ul li{
+    text-align: center;
+}
+.footer-nav ul li a{
+    font-size: 16px;
+    font-family: 'poppins';
+    color:#B9B9B9;
+}
+
+/*========= match part =======*/
+.image1 span{
+        font-size: 30px;
+    
 }
