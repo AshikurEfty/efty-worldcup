@@ -8,6 +8,9 @@ ol,ul{
 a{
     text-decoration: none;
 }
+body{
+    font-family: "poppins";
+}
 .container{
     padding: 0 5%;
 }
@@ -188,9 +191,22 @@ a{
     font-family: 'poppins';
     color:#B9B9B9;
 }
+.social .fa-brands{
+    color:#FFFFFF;
+    padding-left: 10px;
+
+}
 
 /*========= match part =======*/
-.image1 span{
-        font-size: 30px;
+.image1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
+}
+.match-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+
 }

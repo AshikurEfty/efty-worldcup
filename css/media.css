@@ -19,6 +19,14 @@
     .blog-btn-left h3{
         display:block;
     }
+    .blog-btn .btn1, .blog-btn .btn2, .blog-btn .btn3{
+        padding:unset;
+    }
+    .banner-text a {
+        font-size: 16PX;
+    }
+
+
     .split img{
         width:100%;
     }
@@ -28,6 +36,13 @@
         padding-bottom: 40px;
         border-radius: 10px;
         display: flex;
+    }
+    .blog-item{
+        grid-template-columns:repeat(1, 1fr);
+    }
+
+    .footer-nav ul{
+        flex-direction:column;
     }
 
 }
